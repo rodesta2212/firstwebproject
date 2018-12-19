@@ -1,0 +1,117 @@
+body{
+	background-image:url(img/brick.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+#wrap {
+	width:800px;
+	margin:auto;
+}
+#header {
+	background-color:white;
+	width:800px;
+	height:150px;
+	background-image:url(img/tex.jpg);
+	color:white;
+}
+.logo {
+	position:absolute;
+	width:100px;
+	height:100px;
+	margin-top:2px;
+	margin-left:2px;
+}
+#judul {
+	font-family:arial;
+	font-size:50px;
+}
+#list_dropdown {
+	text-align:center;
+	max-width:800px;
+	height:25px;
+	position:relative;
+	border:1px solid black;
+	background-color:lightgrey;
+	color:black;
+	text-align:center;
+}
+#list_dropdown ul{
+	padding:0px;
+	margin:0px;
+	list-style-type:none;
+	text-align:center;
+}	
+#list_dropdown li {
+	display:inline;
+}
+#list_dropdown li a {
+	text-decoration:none;
+	background-color:lightgray;
+	color:black;
+	border-right:1px solid gray;
+	padding:.2em 1em;
+	font-size:12px;
+}
+#list_dropdown li a:hover {
+	background-color:gray;
+	color:white;
+}
+#konten {
+	background-color:lightblue;
+	width:650px;
+	height:650px;
+	float:left;
+	overflow:scroll;
+	background-image:url(img/cool.jpg);
+	color:white;
+}
+.gambar {
+	position:relative;
+	width:250px;
+	height:250px;
+	top:0px;
+	left:175px;
+	border:5px solid #FFFFFF;
+}
+#menu {
+	background-color:#9900FF;
+	width:150px;
+	height:650px;
+	float:left;
+}
+#list_menu {
+	width:150px;
+}
+#list_menu ul {
+	margin:0px;
+	padding:0px;
+}
+#list_menu li {
+	list-style-type:none;
+	text-align:left;
+}
+#list_menu li a {
+	text-decoration:none;
+	width:125px;
+	height:155px;
+	background-color:lightyellow;
+	display:block;
+	border-top:1px solid black;
+	padding:.2em .8em;
+}
+#list_menu li a:hover{
+	background-color:lightgrey;
+}
+#footer {
+    clear:both;
+	margin-top:50px;
+	max-width:1000px;
+	height:100px;
+	background-color:lightgray;
+	color:black;
+	display:block;
+	text-align:center;
+	padding:2px;
+	opacity: 0.4;
+	filter: alpha(opacity==40);
+}
